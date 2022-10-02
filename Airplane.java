@@ -34,7 +34,13 @@ public class Airplane {
     }
 
     public String fly(){
-        return(" I'm on an airplane that relies on an engine to fly");
+        return("I'm on an airplane that relies on an engine to fly.");
+    }
+    public String walk(){
+        return("I tax on my wheels.");
+    }
+    public String jump(){
+        return("I cannot jump.");
     }
     @Override
     public String toString(){

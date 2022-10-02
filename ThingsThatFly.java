@@ -16,10 +16,10 @@ public class ThingsThatFly {
         birds.add(new Bird("Hummingbird"));
 
         for(Airplane airplane : plane)
-            System.out.println(airplane.toString() + airplane.fly());
+            System.out.println(airplane.toString()+"\n" + airplane.fly() + "\n" + airplane.walk()+ "\n"+ airplane.jump());
 
         for(Bird bird : birds)
-            System.out.println(bird.toString() + bird.fly());
+            System.out.println(bird.toString() +"\n"+ bird.fly() + "\n" + bird.walk() + "\n" + bird.jump());
 
     }
 }

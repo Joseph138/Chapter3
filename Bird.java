@@ -23,10 +23,16 @@ public class Bird {
         this.type = type;
     }
     public String fly(){
-        return(" I'm a bird who flaps wings to fly");
+        return("I'm a bird who flaps wings to fly.");
+    }
+    public String walk(){
+        return("I walk on my feet");
+    }
+    public String jump(){
+        return("I jump by leaping from my feet");
     }
     @Override
     public String toString(){
-        return ("Bird [Type= " + type+ " ]:");
+        return ("Bird [Type= " + type+ "]:");
     }
 }
